@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from fbprophet import Prophet
+from prophet import Prophet
+
 
 # Title of the app
 st.title("📊 AI-Powered Demand Forecasting")
